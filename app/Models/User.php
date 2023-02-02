@@ -46,8 +46,8 @@ class User extends Authenticatable
         return $this->belongsTo('App\Models\Rol');
     }
 
-    public function tipo_documento(){
-        return $this->belongsTo('App\Models\Tipo_documento');
+    public function TipoDocumento(){
+        return $this->belongsTo('App\Models\TipoDocumento');
     }
 
     public function prestamos(){

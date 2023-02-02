@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Detalle_prestamo;
+use App\Models\DetallePrestamo;
 use Illuminate\Http\Request;
 
 class DetallePrestamoController extends Controller
@@ -41,10 +41,10 @@ class DetallePrestamoController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Detalle_prestamo  $detalle_prestamo
+     * @param  \App\Models\DetallePrestamo  $detallePrestamo
      * @return \Illuminate\Http\Response
      */
-    public function show(Detalle_prestamo $detalle_prestamo)
+    public function show(DetallePrestamo $detallePrestamo)
     {
         //
     }
@@ -52,10 +52,10 @@ class DetallePrestamoController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Detalle_prestamo  $detalle_prestamo
+     * @param  \App\Models\DetallePrestamo  $detallePrestamo
      * @return \Illuminate\Http\Response
      */
-    public function edit(Detalle_prestamo $detalle_prestamo)
+    public function edit(DetallePrestamo $detallePrestamo)
     {
         //
     }
@@ -64,10 +64,10 @@ class DetallePrestamoController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Detalle_prestamo  $detalle_prestamo
+     * @param  \App\Models\DetallePrestamo  $detallePrestamo
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Detalle_prestamo $detalle_prestamo)
+    public function update(Request $request, DetallePrestamo $detallePrestamo)
     {
         //
     }
@@ -75,10 +75,10 @@ class DetallePrestamoController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Detalle_prestamo  $detalle_prestamo
+     * @param  \App\Models\DetallePrestamo  $detallePrestamo
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Detalle_prestamo $detalle_prestamo)
+    public function destroy(DetallePrestamo $detallePrestamo)
     {
         //
     }

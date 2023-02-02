@@ -16,8 +16,8 @@ class Prestamo extends Model
         return $this->belongsTo('App\Models\Ambiente');
     }
 
-    public function detalle_prestamos()
+    public function detallePrestamos()
     {
-        return $this->hasMany('App\Models\Detalle_prestamo');
+        return $this->hasMany('App\Models\DetallePrestamo');
     }
 }

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Elementos_estaticos_ambiente;
+use App\Models\ElementosEstaticosAmbiente;
 use Illuminate\Http\Request;
 
 class ElementosEstaticosAmbienteController extends Controller
@@ -41,10 +41,10 @@ class ElementosEstaticosAmbienteController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Elementos_estaticos_ambiente  $elementos_estaticos_ambiente
+     * @param  \App\Models\ElementosEstaticosAmbiente  $elementosEstaticosAmbiente
      * @return \Illuminate\Http\Response
      */
-    public function show(Elementos_estaticos_ambiente $elementos_estaticos_ambiente)
+    public function show(ElementosEstaticosAmbiente $elementosEstaticosAmbiente)
     {
         //
     }
@@ -52,10 +52,10 @@ class ElementosEstaticosAmbienteController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Elementos_estaticos_ambiente  $elementos_estaticos_ambiente
+     * @param  \App\Models\ElementosEstaticosAmbiente  $elementosEstaticosAmbiente
      * @return \Illuminate\Http\Response
      */
-    public function edit(Elementos_estaticos_ambiente $elementos_estaticos_ambiente)
+    public function edit(ElementosEstaticosAmbiente $elementosEstaticosAmbiente)
     {
         //
     }
@@ -64,10 +64,10 @@ class ElementosEstaticosAmbienteController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Elementos_estaticos_ambiente  $elementos_estaticos_ambiente
+     * @param  \App\Models\ElementosEstaticosAmbiente  $elementosEstaticosAmbiente
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Elementos_estaticos_ambiente $elementos_estaticos_ambiente)
+    public function update(Request $request, ElementosEstaticosAmbiente $elementosEstaticosAmbiente)
     {
         //
     }
@@ -75,10 +75,10 @@ class ElementosEstaticosAmbienteController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Elementos_estaticos_ambiente  $elementos_estaticos_ambiente
+     * @param  \App\Models\ElementosEstaticosAmbiente  $elementosEstaticosAmbiente
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Elementos_estaticos_ambiente $elementos_estaticos_ambiente)
+    public function destroy(ElementosEstaticosAmbiente $elementosEstaticosAmbiente)
     {
         //
     }
