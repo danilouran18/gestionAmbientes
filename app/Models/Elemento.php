@@ -9,19 +9,19 @@ class Elemento extends Model
 {
     use HasFactory;
 
-    public function tipo_dispositivo()
+    public function tipoDispositivo()
     {
-        return $this->belongsTo('App\Models\Tipo_dispositivo');
+        return $this->belongsTo('App\Models\TipoDispositivo');
     }
 
-    public function estado_elemento()
+    public function estadoElemento()
     {
-        return $this->belongsTo('App\Models\Estado_elemento');
+        return $this->belongsTo('App\Models\EstadoElemento');
     }
 
-    public function detalle_prestamos()
+    public function detallePrestamos()
     {
-        return $this->hasMany('App\Models\Detalle_prestamo');
+        return $this->hasMany('App\Models\DetallePrestamo');
     }
 
     

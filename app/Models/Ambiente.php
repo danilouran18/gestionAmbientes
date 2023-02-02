@@ -9,16 +9,16 @@ class Ambiente extends Model
 {
     use HasFactory;
 
-    public function elementos_estaticos(){
-        return $this->hasMany('App\Models\Elementos_estaticos_ambiente');
+    public function elementosEstaticosAmbientes(){
+        return $this->hasMany('App\Models\ElementosEstaticosAmbiente');
     }
 
-    public function estado_ambiente(){
-        return $this->belongsTo('App\Models\Estado_ambiente');
+    public function estadoAmbiente(){
+        return $this->belongsTo('App\Models\EstadoAmbiente');
 
     }
 
-    public function prestamos(){
+    public function Prestamos(){
         return $this->hasMany('App\Models\Prestamo');
     }
 }

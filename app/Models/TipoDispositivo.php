@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Tipo_dispositivo extends Model
+class TipoDispositivo extends Model
 {
     use HasFactory;
 
@@ -13,3 +13,4 @@ class Tipo_dispositivo extends Model
         return $this->hasMany('App\Models\Elemento');
     }
 }
+

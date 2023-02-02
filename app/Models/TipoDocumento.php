@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Estado_ambiente extends Model
+class TipoDocumento extends Model
 {
     use HasFactory;
-
-    public function ambientes(){
-        return $this->hasMany('App\Models\Ambiente');
+    
+    public function users(){
+        return $this->hasMany('App\Models\User');
     }
 }
