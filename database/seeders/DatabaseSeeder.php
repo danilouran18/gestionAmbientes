@@ -26,6 +26,7 @@ class DatabaseSeeder extends Seeder
         $this->call(RolSeeder::class);
         $this->call(EstadoAmbienteSeeder::class);
         $this->call(TipoDocumentoSeeder::class);
+        $this->call(EstadoElementoSeeder::class);
 
     }
 }
