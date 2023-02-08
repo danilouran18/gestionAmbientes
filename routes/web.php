@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PrestamoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    /*return view('welcome');*/
+    return "Pagina Principal";
 });
+
+Route::controller(PrestamoController::class)->group(function (){
+    Route::get('prestamo','index');
+    Route::get('prestamo/create','create');
+});
+
+
+    

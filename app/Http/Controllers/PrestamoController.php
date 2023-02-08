@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class PrestamoController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +15,7 @@ class PrestamoController extends Controller
      */
     public function index()
     {
-        //
+        return view('prestamo.index');
     }
 
     /**
@@ -24,7 +25,7 @@ class PrestamoController extends Controller
      */
     public function create()
     {
-        //
+        return view('prestamo.create');
     }
 
     /**
